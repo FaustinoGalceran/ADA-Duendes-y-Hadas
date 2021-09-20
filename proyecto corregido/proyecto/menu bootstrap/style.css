@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 213, 255);
+}
+
+.foto {
+    height: 50px;
+    width: auto;
+}
+
+.navbar {
+    background-color: rgb(64, 8, 82);
+    height: 80px;
+
+}
+
+.navbar ul li a {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    color: rgb(123, 4, 160);
+}
+
+@media (max-width: 500px) {
+    /* ACÁ LE DOY MÁS ALTURA AL NAVBAR PARA QUE SE VEA EL BOTÓN */
+    .navbar {
+        height: 75px;
+    }
+/* ACÁ LE DOY UN FONDO DE COLOR PARA QUE SE VEAN BIEN LAS OPCIONES */
+    .navbar-nav {
+        padding: 15px;
+        background-color:rgb(64, 8, 82) ;
+        opacity: 80%;
+        width: 50%;
+        
+    }
+}

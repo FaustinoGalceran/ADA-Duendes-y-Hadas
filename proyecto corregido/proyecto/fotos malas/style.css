@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+header{
+    color: black;
+    background-image: linear-gradient(to bottom,#202c09,#a3b09c );
+    height: 100px;
+
+    
+    padding-top: 10px;
+}
+
+
+
+
+
+footer{
+    background-image: linear-gradient(to bottom,#a3b09c,#202c09 );
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 0px;
+}
+
+
+
+/*Menu/*
+/*header .Menu ul li{
+    display: inline;
+    }
+header .Menu ul li a {
+        text-decoration: none;
+        background: none;
+        color: blanchedalmond;
+        font-size: 16px;
+}
+.nav-item{
+    padding: 16px;
+}
+.navbar-nav {
+    margin-right: auto;
+    justify-content: end;
+}*/
+
+
+/* fondo de pantalla*/
+.mainCountainer{ 
+    background-image: url(../fondo\ de\ pantalla.jpg);
+    min-height: 1000px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+    
+}/*
+/*frase inicio*/
+.main__Inicio  article p {
+    color: rgba(135, 204, 202, 0.897);
+    background-color: rgba(34, 139, 34, 0.712);
+    position: relative;
+    top: 300px;
+    font-size: 50px;
+    font-family: 'MonteCarlo', cursive;
+    padding: 5px 10px;
+
+
+}
+
+
+/* boton catalogo inicio*/
+.main__Inicio--catalogo a{ 
+    text-decoration: none;
+    position: relative;
+    top: 400px;
+    font-size: 35px;
+    background-color: rgba(0, 0, 0, 0.712);
+    color: blanchedalmond;
+    font-family: 'MonteCarlo', cursive;
+    padding: 5px 10px;
+    border-radius: 20px;
+
+}
+
+/*texto nosotros*/
+.mainCountainer h2{
+    color: rgba(135, 204, 202, 0.897);
+    background-color: rgba(10, 15, 10, 0.712);
+    position: relative;
+    top: 300px;
+    font-size: 50px;
+    font-family: 'MonteCarlo', cursive;
+    padding: 5px 10px;
+}
+
+/* Nosotros*/
+.mainCountainer h1{
+
+    position: relative;
+    top: 200px;
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0.712);
+    color: blanchedalmond;
+    font-family: 'MonteCarlo', cursive;
+    padding: 5px 10px;
+
+}
+/*catalogo*/
+.catalogoCountainer{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.catalogo{
+    width: 33.3%;
+    height: auto;
+    padding: 30px;
+    border-radius: 20px;
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-size: 30px;
+    color: rgb(14, 134, 98);
+}
+
+
+
+.carousel-item {
+    width: 33.3%;
+    height: auto;
+    padding: 100px;
+    position: relative;
+    top: 30px;
+    margin: auto auto auto auto;
+    justify-content: center;
+}
+.carousel-indicators{
+    padding: 100px;
+    position: relative;
+    top: 80px;
+    
+}
+
+
+
+/*redes*/
+.grid__countainer{
+    display: grid;
+    position: relative;
+    top: 100px;    
+    grid-template-rows: 200px 200px ;
+    grid-template-columns: auto auto;
+    row-gap: 200px;
+    justify-items: center;
+    
+}
+.grid-facebook a{
+    position: relative;
+    top: 80px;
+}
+.grid__instagram a{
+    position: relative;
+    top: 80px;
+}
+/*contacto*/
+.gridContacto{
+    width: 50%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 50px 100px;
+    background-color: rgba(143, 223, 143, 0.719);
+    border-radius: 15px;
+    margin-left: 33.3%;
+    margin-right: 33.3%;
+    position: relative;
+    top: 100px;
+    right: 100px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    
+}
+.gridForm{
+    width: 33,3%;
+    height: auto;
+    transition: all 1s;
+}
+.gridForm:hover{
+    width: 33;
+    height: auto;
+    font-size: 50px ;
+
+}
+.gridEmail{
+    width: 3%;
+    height: auto;
+    transition: all 0.5s;
+}
+.gridEmail :hover{
+    width: 333;
+    height: auto;
+    transition: all 0.25s;
+}
+.gridWhatsapp{
+    width: 3%;
+    height: auto;
+    transition: all 0.5s;
+}
+.gridWhatsapp :hover{
+    width: 333;
+    height: auto;
+    transition: all 0.25s;
+}
+
+
+
+
+
+/*footer*/
+
+
+
+
+/*responsive*/
+@media screen and (max-width: 768px) {
+
+    header .Menu ul li a{
+        font-size: 18px;
+    }
+    .logo img{
+    
+        height: 90px;
+    
+    }
+    .mainCountainer h2{
+        font-size: 30px;
+        
+
+    }
+    .carousel-item{
+        width: 40px;
+        justify-content: center;
+    }
+    .gridContacto{
+        font-size: 16px;
+        justify-content: center;
+    }
+    .carousel-item{
+        width: 40px;
+        
+        justify-content: center;
+    }
+}
+
