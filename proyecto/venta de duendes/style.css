@@ -40,7 +40,7 @@ h1 {
     width: 100%;
     height: 1000px;
 }
-/*frase inicio*/
+/*inicio*/
 .main__Inicio  article p {
     color: rgba(135, 204, 202, 0.897);
     background-color: rgba(34, 139, 34, 0.712);
@@ -51,6 +51,14 @@ h1 {
     padding: 5px 10px;
 
 
+}
+.colFoto{
+    height: 500px;
+    justify-content: center;
+}
+.col {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 footer{
