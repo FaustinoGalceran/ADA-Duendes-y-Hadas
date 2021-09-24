@@ -99,11 +99,12 @@ footer{
     padding: 5px 10px;
 
 }
-/* correjir 17/9*/
+
 .colFoto{
     height: 500px;
     justify-content: center;
 }
+
 /*catalogo*/
 .catalogoCountainer{
     width: 100%;
