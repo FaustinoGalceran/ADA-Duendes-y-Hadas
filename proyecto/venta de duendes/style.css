@@ -5,9 +5,15 @@
 
 header{
     background-image: linear-gradient(to bottom,#202c09,#a3b09c );
-    height: 100px;
+    height: auto;
 }
+header .navbar{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background-image: linear-gradient(to bottom,#202c09,#a3b09c );
 
+}
 .nav-item{
     padding: 16px;
 }
@@ -110,7 +116,7 @@ footer{
 
 .colFoto{
     height: 500px;
-    justify-content: center;
+
 }
 
 /*catalogo*/
@@ -243,7 +249,17 @@ footer{
     .nav-item{
         padding: 8px;
     }
-
+    .gridNosotros{
+        flex-direction: column;
+        width: 100%;
+        font-size: 4px;
+    }
+    .col{
+        
+        font-size: 16px;
+    }
+    
+    
 }
 @media screen and (max-width: 768px) {
 
@@ -266,8 +282,8 @@ footer{
 
 }
 @media screen and (min-width: 768px) {
-    .d-block{
-        width: 50%;
-        height: auto;
+    .carousel{
+        width: 600px;
+        margin: auto;
     }
 }
