@@ -6,11 +6,15 @@
 header{
     background-image: linear-gradient(to bottom,#202c09,#a3b09c );
     height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
 }
 header .navbar{
     width: 100%;
     height: auto;
-    position: fixed;
     background-image: linear-gradient(to bottom,#202c09,#a3b09c );
 
 }
@@ -25,6 +29,15 @@ h1 {
     font-weight: 400;
     margin-top: 20px;
     color: black;
+}
+footer{
+    background-image: linear-gradient(to bottom,#a3b09c,#202c09 );
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
 }
 
 /* fondo de pantalla*/
@@ -67,15 +80,7 @@ h1 {
     font-size: 20px;
 }
 
-footer{
-    background-image: linear-gradient(to bottom,#a3b09c,#202c09 );
-    width: 100%;
-    height: 200px;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    
-}
+
 
 .main__Inicio--catalogo a{ 
     text-decoration: none;
@@ -166,19 +171,10 @@ footer{
     display: grid;
     position: relative;
     top: 100px;    
-    grid-template-rows: 200px 200px ;
     grid-template-columns: auto auto;
-    row-gap: 200px;
+    row-gap: 100px;
     justify-items: center;
     
-}
-.grid-facebook a{
-    position: relative;
-    top: 80px;
-}
-.grid__instagram a{
-    position: relative;
-    top: 80px;
 }
 /*contacto*/
 .gridContacto{
@@ -239,10 +235,37 @@ footer{
     height: auto;
     transition: all 0.25s;
 }
+/*footer email*/
+.footerEmail{
+    position: relative;
+    
+    justify-content: center;
+    align-items: center;
+}
 
 
-
-
+@media screen and (max-width:  375px){
+    .grid__countainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .logoInstagram {
+        width: 20%;
+        height: auto;
+    }
+    .viejaInstagram{
+        width: 35%;
+        height: auto;
+    }
+    .sabioFacebook{
+        width: 35%;
+        height: auto;
+    }
+    .facebook{
+        width: 20%;
+        height: auto;
+    }
+}
 
 @media (max-width: 500px) {
 
@@ -277,9 +300,6 @@ footer{
     }
     .carousel-item{
         width: 100px;
-    }
-    .grid__countainer{
-        width: 50%;
     }
 
 
