@@ -100,17 +100,17 @@ footer{
     color: rgba(135, 204, 202, 0.897);
     background-color: rgba(10, 15, 10, 0.712);
     position: relative;
-    top: 300px;
-    font-size: 50px;
+    top: 1100px;
+    font-size: 60px;
     font-family: 'MonteCarlo', cursive;
-    padding: 5px 10px;
+    padding: 10px 10px;
 }
 
 /* Nosotros*/
 .mainCountainer h1{
 
     position: relative;
-    top: 200px;
+    top: 300px;
     font-size: 60px;
     background-color: rgba(0, 0, 0, 0.712);
     color: blanchedalmond;
@@ -194,16 +194,7 @@ footer{
     font-size: 30px;
     
 }
-.mainCountainer h1{
-    position: relative;
-    top: 200px;
-    font-size: 60px;
-    background-color: rgba(0, 0, 0, 0.712);
-    color: blanchedalmond;
-    font-family: 'MonteCarlo', cursive;
-    padding: 5px 10px;
 
-}
 .gridForm{
     width: 33,3%;
     height: auto;
