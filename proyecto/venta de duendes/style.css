@@ -257,6 +257,9 @@ footer{
         width: 20%;
         height: auto;
     }
+    .mainBlanco{
+        height: 880px;
+    }
 }
 
 @media (max-width: 500px) {
