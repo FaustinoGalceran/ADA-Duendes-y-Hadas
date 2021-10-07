@@ -5,6 +5,7 @@
 
 header{
     background-image: linear-gradient(to bottom,#202c09,#a3b09c );
+    width: 100%;
     height: auto;
     position: fixed;
     top: 0;
@@ -120,6 +121,14 @@ footer{
     height: 500px;
 
 }
+.mainBlanco__Nosotros{
+    background-image: url(../viejo\ pipa3.jpg);
+    width: 100%;
+    height: 1000px;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
 
 /*catalogo*/
 .catalogoCountainer{
@@ -223,18 +232,19 @@ footer{
     transition: all 0.25s;
 }
 /*footer email*/
-.footerEmail{
+.footerEmail{ 
+    width: 50%;
     position: relative;
     top: 20%;
     left: 33%;
 }
 .textoFooter{
+    width: 100%;
+    position: relative;
+    right: 14px;
     font-family:'Monsieur La Doulaise', cursive;
     font-size: 30px;
 }
-
-
-
 @media screen and (max-width: 375px){
     .grid__countainer{
         display: flex;
@@ -273,6 +283,13 @@ footer{
     }
     .col{    
         font-size: 14px;
+    }
+    .footerEmail{
+        height: auto;
+        font-size: 10px;
+    }
+    .textoFooter{    
+        font-size: 20px;
     }
 }
 @media screen and (max-width: 768px) {
