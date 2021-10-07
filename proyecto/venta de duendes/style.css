@@ -75,12 +75,10 @@ footer{
     height: 500px;
     justify-content: center;
 }
-.col {
+.col{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
-
-
 
 .main__Inicio--catalogo a{ 
     text-decoration: none;
@@ -92,7 +90,6 @@ footer{
     font-family: 'MonteCarlo', cursive;
     padding: 5px 10px;
     border-radius: 20px;
-
 }
 
 /*texto nosotros*/
@@ -192,7 +189,6 @@ footer{
     right: 100px;
     font-family: 'Great Vibes', cursive;
     font-size: 30px;
-    
 }
 
 .gridForm{
@@ -229,18 +225,22 @@ footer{
 /*footer email*/
 .footerEmail{
     position: relative;
-    
-    justify-content: center;
-    align-items: center;
+    top: 20%;
+    left: 33%;
+}
+.textoFooter{
+    font-family:'Monsieur La Doulaise', cursive;
+    font-size: 30px;
 }
 
 
-@media screen and (max-width:  375px){
+
+@media screen and (max-width: 375px){
     .grid__countainer{
         display: flex;
         flex-direction: column;
     }
-    .logoInstagram {
+    .logoInstagram{
         width: 20%;
         height: auto;
     }
@@ -271,18 +271,14 @@ footer{
         width: 100%;
         font-size: 4px;
     }
-    .col{
-        
+    .col{    
         font-size: 14px;
     }
-
-    
 }
 @media screen and (max-width: 768px) {
 
     .mainCountainer h2{
         font-size: 30px;
-        
     }
 
     .nav-item{
@@ -295,8 +291,6 @@ footer{
     .carousel-item{
         width: 100px;
     }
-
-
 }
 @media screen and (min-width: 768px) {
     .carousel{
