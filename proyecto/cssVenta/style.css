@@ -43,7 +43,7 @@ footer {
 .mainFondo{ 
   width: 100%;
   height: 1000px;
-  background-image: url(/proyecto/fondo\ de\ pantalla.jpg);
+  background-image: url(../fondo\ de\ pantalla.jpg);
   min-height: 100%;
   background-size: cover;
   background-position: center;
@@ -120,7 +120,7 @@ footer {
 
 }
 .mainBlanco__Nosotros{
-  background-image: url(/proyecto/viejo\ pipa3.jpg);
+  background-image: url(../viejo\ pipa3.jpg);
   width: 100%;
   height: 1000px;
   min-height: 100%;
