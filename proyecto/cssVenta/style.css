@@ -235,11 +235,6 @@ footer {
   height: auto;
   transition: all 0.5s;
 }
-.gridWhatsapp :hover{
-  width: 333;
-  height: auto;
-  transition: all 0.25s;
-}
 /*footer email*/
 .footerEmail{ 
   width: 50%;
@@ -307,21 +302,11 @@ footer {
   .gridForm{
       font-size: 14px;
   }
-  .gridForm:hover{
-      font-size: 20px;
-  
-  }
   .gridEmail{
       font-size: 14px;
   }
-  .gridEmail :hover{
-      font-size: 20px;
-  }
   .gridWhatsapp{
       font-size: 14px;
-  }
-  .gridWhatsapp :hover{
-      font-size: 20px;
   }
   .gridEnviar{
       font-size: 12px;
