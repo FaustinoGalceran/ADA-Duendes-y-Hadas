@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-image: linear-gradient(to bottom,#202c09,#a3b09c );
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+header .navbar{
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(to bottom,#202c09,#a3b09c );
+
+}
+.nav-item{
+  padding: 16px;
+}
+
+
+footer{
+  background-image: linear-gradient(to bottom,#a3b09c,#202c09 );
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  
+}
+
+/* fondo de pantalla*/
+.mainFondo{ 
+  width: 100%;
+  height: 1000px;
+  background-image: url(../fondo\ de\ pantalla.jpg);
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.countainer{
+  height: 100px;
+}
+.mainBlanco{
+  width: 100%;
+  height: 1000px;
+}
+/*inicio*/
+.main__Inicio  article p {
+  color: rgba(135, 204, 202, 0.897);
+  background-color: rgba(34, 139, 34, 0.712);
+  position: relative;
+  top: 300px;
+  font-size: 50px;
+  font-family: 'MonteCarlo', cursive;
+  padding: 5px 10px;
+
+
+}
+.colFoto{
+  height: 500px;
+  justify-content: center;
+}
+.col{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.main__Inicio--catalogo a{ 
+  text-decoration: none;
+  position: relative;
+  top: 400px;
+  font-size: 35px;
+  background-color: rgba(0, 0, 0, 0.712);
+  color: blanchedalmond;
+  font-family: 'MonteCarlo', cursive;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+/*texto nosotros*/
+.mainCountainer h2{
+  color: rgba(135, 204, 202, 0.897);
+  background-color: rgba(10, 15, 10, 0.357);
+  position: relative;
+  top: 1100px;
+  font-size: 60px;
+  font-family: 'MonteCarlo', cursive;
+  padding: 10px 10px;
+}
+
+/* Nosotros*/
+.mainCountainer h1{
+
+  position: relative;
+  top: 300px;
+  font-size: 60px;
+  background-color: rgba(0, 0, 0, 0.378);
+  color: blanchedalmond;
+  font-family: 'MonteCarlo', cursive;
+  padding: 5px 10px;
+
+}
+
+.colFoto{
+  height: 500px;
+}
+.mainBlanco__Nosotros{
+  background-image: url(../viejo\ pipa3.jpg);
+  width: 100%;
+  height: 1000px;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+/*catalogo*/
+.catalogoCountainer{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row ;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+.catalogo{
+  width: 33.3%;
+  height: auto;
+  padding: 30px;
+  border-radius: 20px;
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-size: 30px;
+  color: rgb(14, 134, 98);
+}
+
+
+
+.carousel-item {
+  width: 33.3%;
+  height: auto;
+  padding: 100px;
+  position: relative;
+  top: 30px;
+  margin: auto auto auto auto;
+  justify-content: center;
+}
+.carousel-indicators{
+  position: relative;
+  top: 100px;
+  color: black;
+  
+}
+.mainBlanco--catalogo{
+  width: 100%;
+  height: 350px;
+}
+.card-deck{
+  height: auto;
+  position: relative;
+  top: 50px;
+
+}
+.card{
+  border-radius: 10px;
+  margin-right: 0;
+}
+
+
+/*redes*/
+.grid__countainer{
+  display: grid;
+  position: relative;
+  top: 100px;    
+  grid-template-columns: auto auto;
+  row-gap: 100px;
+  justify-items: center;
+  
+}
+/*contacto*/
+.gridContacto{
+  width: 50%;
+  height: auto;
+  display: grid;
+  grid-template-columns: auto;
+  padding: 50px 100px;
+  background-color: rgba(143, 223, 143, 0.719);
+  border-radius: 15px;
+  margin-left: 33.3%;
+  margin-right: 33.3%;
+  position: relative;
+  top: 100px;
+  right: 100px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+}
+
+.gridForm{
+  width: 33,3%;
+  height: auto;
+  transition: all 1s;
+}
+.gridForm:hover{
+  width: 33;
+  height: auto;
+  font-size: 50px ;
+
+}
+.gridEmail{
+  width: 3%;
+  height: auto;
+  transition: all 0.5s;
+}
+.gridEmail :hover{
+  width: 333;
+  height: auto;
+  transition: all 0.25s;
+}
+.gridWhatsapp{
+  width: 3%;
+  height: auto;
+  transition: all 0.5s;
+}
+.gridWhatsapp :hover{
+  width: 333;
+  height: auto;
+  transition: all 0.25s;
+}
+/*footer email*/
+.footerEmail{ 
+  width: 50%;
+  height: 100px;
+  position: relative;
+  top: 20%;
+  left: 33%;
+}
+.textoFooter{
+  width: 100%;
+  position: relative;
+  right: 14px;
+  font-family:'Monsieur La Doulaise', cursive;
+  font-size: 30px;
+}
+@media screen and (max-width: 375px){
+  .grid__countainer{
+      display: flex;
+      flex-direction: column;
+  }
+  .logoInstagram{
+      width: 20%;
+      height: auto;
+  }
+
+  .viejaInstagram{
+      width: 35%;
+      height: auto;
+  }
+  .sabioFacebook{
+      width: 35%;
+      height: auto;
+  }
+  .facebook{
+      width: 20%;
+      height: auto;
+  }
+  .mainBlanco{
+      height: 880px;
+  }
+}
+
+@media (max-width: 425px) {
+
+  .nav-item{
+      padding: 8px;
+  }
+  .gridInicio{
+      width: 100%;
+      font-size: 4px;
+  }
+  .col{    
+      font-size: 14px;
+  }
+  .footerEmail{
+      height: 100px;
+      font-size: 10px;
+  }
+  .textoFooter{ 
+      font-size: 20px;
+  }
+  .gridContacto {
+      font-size: 14px;
+  }
+  .gridForm{
+      font-size: 14px;
+  }
+  .gridForm:hover{
+      font-size: 20px;
+  
+  }
+  .gridEmail{
+      font-size: 14px;
+  }
+  .gridEmail :hover{
+      font-size: 20px;
+  }
+  .gridWhatsapp{
+      font-size: 14px;
+  }
+  .gridWhatsapp :hover{
+      font-size: 20px;
+  }
+  .gridEnviar{
+      font-size: 12px;
+  }
+  .gridEnviar :hover{
+      font-size: 18px;
+  }
+  .mainBlanco--catalogo{
+      width: auto;
+      height: 1600px;
+  }
+  .card-deck{
+      position: relative;
+      top: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+
+  .mainCountainer h2{
+      font-size: 30px;
+  }
+
+  .nav-item{
+      padding: 8px;
+  }
+  .gridContacto{
+      font-size: 16px;
+      justify-content: center;
+  }
+  .carousel-item{
+      width: 100px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .carousel{
+      width: 600px;
+      margin: auto;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .gridForm:hover{
+      font-size: 40px;
+  }
+}
+
+/* No CSS *//*# sourceMappingURL=style.css.map */
