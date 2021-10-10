@@ -219,12 +219,6 @@ footer {
   height: auto;
   transition: all 1s;
 }
-.gridForm:hover{
-  width: 33;
-  height: auto;
-  font-size: 50px ;
-
-}
 .gridEmail{
   width: 3%;
   height: auto;
@@ -311,9 +305,6 @@ footer {
   .gridEnviar{
       font-size: 12px;
   }
-  .gridEnviar :hover{
-      font-size: 18px;
-  }
   .mainBlanco--catalogo{
       width: auto;
       height: 1600px;
@@ -347,8 +338,5 @@ footer {
   }
 }
 @media screen and (max-width: 1440px) {
-  .gridForm:hover{
-      font-size: 40px;
-  }
 }
 /*# sourceMappingURL=style.css.map */
