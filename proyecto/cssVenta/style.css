@@ -217,17 +217,16 @@ footer {
 .gridForm{
   width: 33,3%;
   height: auto;
-  transition: all 1s;
 }
 .gridEmail{
   width: 3%;
   height: auto;
-  transition: all 0.5s;
+
 }
 .gridWhatsapp{
   width: 3%;
   height: auto;
-  transition: all 0.5s;
+
 }
 /*footer email*/
 .footerEmail{ 
