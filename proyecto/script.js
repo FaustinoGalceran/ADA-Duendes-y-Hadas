@@ -21,7 +21,8 @@ formContacto.addEventListener('submit', (e) => {
     console.log(Contacto)
     
 })
-Toastify({
+
+/*Toastify({
     text: "Sus datos fueron enviados correctamente.",
     duration: 3000,
     destination: "https://github.com/apvarun/toastify-js",
@@ -33,5 +34,14 @@ Toastify({
     style: {
       background: "linear-gradient(to right, #00b09b, #96c93d)",
     },
-    onClick: Contacto(){} // Callback after click
-  }).showToast();
+    onClick: Contacto() // Callback after click
+  }).showToast();*/
+
+
+fetch('clientes.json')
+.then(response => response.json())
+.then(clientes =>{
+    console.log(clientes)
+
+})
+
